@@ -1,0 +1,8 @@
+{
+  "name": "Qasr Al-Malakiya — 3D Saudi Luxury Wedding Palace",
+  "description": "An interactive, photorealistic 3D architectural simulation of a contemporary Saudi luxury wedding palace featuring separate men's and women's halls, royal bridal suite, dining buffets, landscaped valet parking, dynamic lighting, and interactive LED displays.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

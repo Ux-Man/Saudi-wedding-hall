@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --ivory: #EEE7DA;
+  --gold: #C7A572;
+  --beige: #C9B9A5;
+  --walnut: #594031;
+  --charcoal: #252525;
+  --obsidian: #161412;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #161412;
+  color: #EEE7DA;
+  font-family: 'Plus Jakarta Sans', 'Cairo', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+[dir="rtl"] {
+  font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', 'Amiri', Georgia, serif;
+}
+
+[dir="rtl"] .font-display {
+  font-family: 'Amiri', 'Cairo', serif;
+}
+
+.luxury-scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.luxury-scroll::-webkit-scrollbar-track {
+  background: rgba(37, 37, 37, 0.5);
+}
+
+.luxury-scroll::-webkit-scrollbar-thumb {
+  background: rgba(199, 165, 114, 0.45);
+  border-radius: 3px;
+}
+
+.luxury-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(199, 165, 114, 0.75);
+}
